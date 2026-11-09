@@ -17,8 +17,6 @@ Banyak program bantuan sosial menghadapi tantangan dalam mengidentifikasi keluar
 2. Memberikan antarmuka interaktif bagi pengambil kebijakan atau pengguna umum untuk menguji data baru baik secara manual maupun *batch upload* (CSV).
 3. Memvisualisasikan distribusi dan probabilitas tingkat kemiskinan agar keputusan intervensi sosial lebih transparan.
 
----
-
 ## Target Klasifikasi
 
 | Level | Kategori | Keterangan |
@@ -28,16 +26,12 @@ Banyak program bantuan sosial menghadapi tantangan dalam mengidentifikasi keluar
 | **3** | Rumah Tangga Rentan (*Vulnerable Household*) | Berisiko tinggi jatuh ke jurang kemiskinan |
 | **4** | Rumah Tangga Tidak Rentan (*Non-Vulnerable*) | Rumah tangga dengan kondisi ekonomi relatif stabil |
 
----
-
 ## Fitur Utama Dashboard
 
 - **Data Overview:** Eksplorasi ringkasan data, distribusi kelas target, serta rata-rata variabel penting (tingkat pendidikan, kepadatan hunian, dll.).
 - **Manual Feature Input:** Input interaktif menggunakan slider dan selectbox untuk mensimulasikan karakteristik rumah tangga.
 - **Batch CSV Upload:** Dukungan upload file CSV untuk melakukan inferensi banyak data sekaligus.
 - **Probability Distribution:** Visualisasi diagram batang probabilitas untuk setiap kelas target dari model Machine Learning.
-
----
 
 ## Variabel / Fitur yang Digunakan
 
@@ -56,7 +50,6 @@ Model menggunakan 12 fitur sosioekonomi utama yang telah diseleksi:
 11. `etecho3` — Atap dalam kondisi baik (Ya / Tidak)
 12. `eviv3` — Kondisi rumah secara umum baik (Ya / Tidak)
 
----
 
 ## Cara Menjalankan Proyek Secara Lokal
 
@@ -93,7 +86,7 @@ Aplikasi akan otomatis terbuka di browser pada alamat `http://localhost:8501`.
 
 ---
 
-## 📁 Struktur Repositori
+## Struktur Repositori
 
 ```text
 ├── app.py                         # Aplikasi web Streamlit
